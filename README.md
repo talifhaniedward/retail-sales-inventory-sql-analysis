@@ -17,12 +17,13 @@ The analysis was performed on a large-scale retail database containing:
 ---
 ## Key Project Metrics
 
-- **500K+ sales records analyzed**
-- **13 executive business questions answered**
-- **4 provinces analyzed**
-- **7 major brands analyzed**
-- **3-year time-series analysis (2024–2026)**
-- **Star schema with 2 fact tables and 4 dimension tables**
+- **1.2 million+ rows analyzed across 6 tables**
+- **500,000 sales transactions**
+- **500,000 inventory record**s
+- **100,000 unique customers**
+- **100,000 products across 7 brands**
+- **100 stores across 4 South African provinces**
+- **3-year time-series (1,095 days: 2024–2026)**
 
 ## Business Problem
 

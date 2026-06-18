@@ -399,7 +399,7 @@ Strengthen supplier partnerships with top-performing brands.
 
 ---
 
-## Q7. Which products within each brand drive profitability?
+## Q7. Which products within each brand drive revenue and profit?
 
 ### Business Question
 
@@ -622,6 +622,85 @@ ORDER BY i.StockoutRate DESC;
 
 Improve supply chain responsiveness in underperforming provinces.
 
+
+## Q12. How has revenue changed over time?
+### Business Question
+
+What are the monthly revenue trends and seasonal patterns?
+
+### SQL Query
+``` sql
+SELECT
+    dd.Year,
+    dd.MonthName,
+    ROUND(SUM(fs.TotalAmount),2) AS Revenue
+FROM FactSales fs
+JOIN DimDate dd
+    ON fs.DateID = dd.DateID
+GROUP BY dd.Year, dd.Month
+ORDER BY dd.Year, dd.Month;
+```
+### Output
+
+<img width="167" height="399" alt="image" src="https://github.com/user-attachments/assets/4828d4ad-3751-40ab-bb07-7d75db66a1d2" />
+
+See full output here:
+
+
+### Key Insight
+
+**Revenue remained relatively stable across the 3-year period, indicating predictable business performance.**
+
+However:
+
+* January consistently delivered the strongest revenue
+* February showed recurring revenue dips
+
+This suggests strong seasonal patterns in customer purchasing behavior.
+
+### Recommendation
+* Increase stock levels and marketing campaigns ahead of January peaks.
+* Introduce promotions in February to reduce seasonal slowdowns.
+
+## Q13. Which quarter generates the highest revenue?
+### Business Question
+
+Which quarter contributes most to company revenue?
+
+### SQL Query
+```sql
+SELECT
+    dd.Year,
+    dd.Quarter,
+    ROUND(SUM(fs.TotalAmount),2) AS Revenue
+FROM FactSales fs
+JOIN DimDate dd
+    ON fs.DateID = dd.DateID
+GROUP BY dd.Year, dd.Quarter
+ORDER BY Revenue DESC;
+```
+### Output
+
+<img width="167" height="308" alt="image" src="https://github.com/user-attachments/assets/6a545b78-da0a-4bbf-967a-7349868616ec" />
+
+
+### Key Insight
+
+**Revenue remained highly consistent across all quarters.**
+
+However:
+
+* Q3 2026 recorded the highest quarterly revenue (R1.54B)
+* Q1 2025 recorded the lowest revenue (R1.48B)
+
+This reinforces seasonal patterns identified in monthly analysis.
+
+### Recommendation
+* Replicate Q3 sales strategies in weaker quarters.
+* Investigate February and early Q1 performance dips.
+* Improve quarterly promotional planning.
+
+
 ---
 
 # Executive Summary
@@ -718,7 +797,9 @@ retail-sales-inventory-sql-analysis/
 │   ├── 08_profit_margin_analysis.sql
 │   ├── 09_customer_segments.sql
 │   ├── 10_high_value_customers.sql
-│   └── 11_stockout_vs_revenue.sql
+│   ├── 11_stockout_vs_revenue.sql
+│   ├── 12_monthly_revenue_trends.sql
+│   └── 13_quarterly_revenue_trends.sql
 │
 ├── screenshots/
 │

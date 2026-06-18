@@ -1,4 +1,4 @@
-# Retail Sales & Inventory Analytics | SQL Project
+# Retail Sales & Inventory Analytics using SQL
 
 ## Overview
 
@@ -8,13 +8,21 @@ The objective was to answer **executive-level business questions** and generate 
 
 The analysis was performed on a large-scale retail database containing:
 
-* **5M+ sales records**
+* **5K+ sales records**
 * Inventory transactions
 * Customer segmentation data
 * Product-level performance
 * Store performance across South African provinces
 
 ---
+## Key Project Metrics
+
+- **5K+ sales records analyzed**
+- **13 executive business questions answered**
+- **4 provinces analyzed**
+- **7 major brands analyzed**
+- **3-year time-series analysis (2024–2026)**
+- **Star schema with 2 fact tables and 4 dimension tables**
 
 ## Business Problem
 
@@ -644,7 +652,6 @@ ORDER BY dd.Year, dd.Month;
 
 <img width="167" height="399" alt="image" src="https://github.com/user-attachments/assets/4828d4ad-3751-40ab-bb07-7d75db66a1d2" />
 
-See full output here:
 [See full Q12 output here](./q12_monthly_revenue.csv)
 
 ### Key Insight
@@ -803,9 +810,8 @@ retail-sales-inventory-sql-analysis/
 │
 ├── screenshots/
 │
-├── README.md
-│
-└── RetailDW.db
+└──  README.md
+
 ```
 
 ---
@@ -813,4 +819,8 @@ retail-sales-inventory-sql-analysis/
 ## Author
 
 **Talifhani Edward Nedambale**
+
 Junior Data Analyst | SQL | Python | Power BI | Data Analytics
+
+- LinkedIn: http://www.linkedin.com/in/talifhani-edward-nedambale/
+- GitHub: [Your GitHub URL]

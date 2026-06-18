@@ -645,7 +645,7 @@ ORDER BY dd.Year, dd.Month;
 <img width="167" height="399" alt="image" src="https://github.com/user-attachments/assets/4828d4ad-3751-40ab-bb07-7d75db66a1d2" />
 
 See full output here:
-retail-besiness-analytics-sql-project/ q12_monthly_revenue.csv
+[See full Q12 output here](./q12_monthly_revenue.csv)
 
 ### Key Insight
 

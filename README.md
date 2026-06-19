@@ -813,18 +813,43 @@ Focus on high-value B2B customers.
 * Relational Database Design
 * Data Warehouse Concepts
 
+## How to Run This Project
+Prerequisites
+* DB Browser for SQLite — free tool to open and query the database
+* VS Code — optional, for editing SQL files
+Steps
+1. Clone the repository
+```bash
+git clone https://github.com/talifhaniedward/retail-business-analytics-sql-project.git
+```
+2. Extract the database
+* Go to the `data/` folder
+* Extract `RetailDW.db.zip`
+* You will get `RetailDW.db`
+3. Open the database
+* Open DB Browser for SQLite
+* Click Open Database
+* Select `RetailDW.db`
+4. Run the queries
+* Go to the `sql_queries/` folder
+* Open any `.sql` file
+* Copy the query
+* Paste it into DB Browser under the Execute SQL tab
+* Click Run ▶️
+5. View the outputs
+* All query results are saved in the `outputs/` folder as CSV files
+* Open any CSV file in Excel to view the results without running the database
 ---
 
 ## Repository Structure
 
 ```text
-retail-sales-inventory-sql-analysis/
+retail-business-analytics-sql-project/
 │
-├── data/
-│   └── RetailDW.db
+├── data/                    
+│   └── RetailDW.db.zip
 │
 ├── sql_queries/
-│   ├── 00_dim_date.sql
 │   ├── 01_provincial_performance.sql
 │   ├── 02_province_efficiency.sql
 │   ├── 03_store_saturation.sql
@@ -839,12 +864,24 @@ retail-sales-inventory-sql-analysis/
 │   ├── 12_monthly_revenue_trends.sql
 │   └── 13_quarterly_revenue_trends.sql
 │
-├── screenshots/
+├── outputs/
+│   ├── q1_provincial_performance.csv
+│   ├── q2_province_efficiency.csv
+│   ├── q3_store_saturation.csv
+│   ├── q4_inventory_availability.csv
+│   ├── q5_inventory_problem_stores.csv
+│   ├── q6_brand_performance.csv
+│   ├── q7_product_profitability.csv
+│   ├── q8_profit_margin_analysis.csv
+│   ├── q9_customer_segments.csv
+│   ├── q10_high_value_customers.csv
+│   ├── q11_stockout_vs_revenue.csv
+│   ├── q12_monthly_revenue.csv
+│   └── q13_quarterly_revenue.csv
 │
 └── README.md
 ```
 
----
 
 ## Author
 

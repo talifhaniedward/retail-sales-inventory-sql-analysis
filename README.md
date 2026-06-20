@@ -429,7 +429,7 @@ HP, Dell, and Lenovo dominate revenue and profit generation.
 
 ### Recommendation
 
-Always keep HP, Dell, and Lenovo products in stock. These three brands drive the most revenue and profit a shortage of any of them will have a direct impact on the business.
+Always keep HP, Dell, and Lenovo products in stock. These three brands drive the most revenue and profit —  a shortage of any of them will have a direct impact on the business.
 
 
 ---
@@ -475,7 +475,7 @@ Keep laptop stock levels high at all times, especially in Eastern Cape and KwaZu
 
 ### Business Question
 
-Which products maximize profitability?
+Which product categories maximize profitability?
 
 ### SQL Query
 ```sql
@@ -507,7 +507,7 @@ Accessories generated the highest profit margins at approximately **35%**, signi
 
 ### Recommendation
 
-Train sales staff to recommend an Accessory with every Laptop, Desktop, or Monitor sale. Accessories deliver the highest profit margin of any product category at **35%** selling more of them alongside high-volume products will significantly improve overall profitability without needing to acquire new customers.
+Train sales staff to recommend an Accessory with every Laptop, Desktop, or Monitor sale. Accessories deliver the highest profit margin of any product category at **35%** — selling more of them alongside high-volume products will significantly improve overall profitability without needing to acquire new customers.
 
 ---
 
@@ -547,7 +547,7 @@ Corporate customers generated the highest revenue and revenue per customer.
 
 ### Recommendation
 
-Build a dedicated sales team for Corporate and Education customers. They spend the most per transaction giving them personalised service and volume discounts will grow their loyalty and increase revenue.
+Build a dedicated sales team for Corporate and Education customers. They spend the most per transaction — giving them personalised service and volume discounts will grow their loyalty and increase revenue
 
 ---
 
@@ -587,7 +587,7 @@ KwaZulu-Natal recorded the highest revenue per customer.
 
 ### Recommendation
 
-Protect the customer base in KwaZulu-Natal. These customers spend the most per transaction introduce a loyalty programme to retain them and attract more customers with the same spending profile..
+KwaZulu-Natal customers spend the most per transaction. Introduce a loyalty programme to retain them and attract more customers with the same spending profile.
 
 ---
 
@@ -741,9 +741,8 @@ However:
 This reinforces seasonal patterns identified in monthly analysis.
 
 ### Recommendation
-* Replicate Q3 sales strategies in weaker quarters.
-* Investigate February and early Q1 performance dips.
-* Improve quarterly promotional planning.
+
+Find out what specifically drove Q3 2026 to be the strongest quarter and repeat those actions in Q1 every year, which is consistently the weakest period.
 
 
 ---
@@ -754,17 +753,17 @@ This reinforces seasonal patterns identified in monthly analysis.
 
 ✅ Gauteng generated the highest total revenue (**R7.63B**) and profit (**R1.47B**).
 
-✅ Western Cape achieved the strongest revenue per store the most operationally efficient province.
+✅ Western Cape achieved the strongest revenue per store —  the most operationally efficient province.
 
-✅ Gauteng shows signs of store saturation recording the lowest customers per store nationally.
+✅ Gauteng shows signs of store saturation —  recording the lowest customers per store nationally.
 
-✅ Eastern Cape recorded the highest stockout rate at **11.98%** the highest risk province for lost sales.
+✅ Eastern Cape recorded the highest stockout rate at **11.98%** —  the highest risk province for lost sales.
 
 ✅ HP, Dell, and Lenovo dominate both revenue and profit generation across all provinces.
 
 ✅ Laptops are the primary revenue driver while Accessories maximize profit margins at ~**35%**.
 
-✅ Corporate customers are the highest-value segment generating the most revenue and highest spend per transaction.
+✅ Corporate customers are the highest-value segment —  generating the most revenue and highest spend per transaction.
 
 ✅ KwaZulu-Natal customers spend the most per transaction of any province.
 
@@ -787,7 +786,7 @@ Western Cape generates the highest revenue per store despite having fewer locati
 
 ### 4. Increase Accessory Sales Across All Stores
 
-Accessories deliver the highest profit margin at ~35% — almost double that of Laptops and Desktops. Train sales staff to recommend an Accessory with every Laptop, Desktop, and Monitor sale to improve overall profitability.
+Accessories deliver the highest profit margin at ~35% —  almost double that of Laptops and Desktops. Train sales staff to recommend an Accessory with every Laptop, Desktop, and Monitor sale to improve overall profitability.
 
 ### 5. Expand Corporate Customer Strategy
 
@@ -804,7 +803,6 @@ Corporate customers generate the highest revenue and spend the most per transact
 * GROUP BY and HAVING
 * CASE WHEN statements
 * CTEs (Common Table Expressions)
-* Subqueries
 * Date-based analysis using DimDate
 * Query performance optimization using Indexes
 
@@ -835,7 +833,7 @@ Prerequisites
 Steps
 1. Clone the repository
 ```bash
-git clone https://github.com/talifhaniedward/retail-business-analytics-sql-project.git
+git clone https://github.com/talifhaniedward/retail-sales-inventory-sql-analysis.git
 ```
 2. Extract the database
 * Go to the `data/` folder
@@ -859,7 +857,7 @@ git clone https://github.com/talifhaniedward/retail-business-analytics-sql-proje
 ## Repository Structure
 
 ```text
-retail-business-analytics-sql-project/
+retail-sales-inventory-sql-analysis/
 │
 ├── data/                    
 │   └── RetailDW.db.zip
@@ -900,9 +898,8 @@ retail-business-analytics-sql-project/
 
 ## Author
 
-**Talifhani Edward Nedambale**
+**Talifhani Edward Nedambale**  
+Junior Data Analyst | SQL | Python | Power BI | Data Analytics  
 
-Junior Data Analyst | SQL | Python | Power BI | Data Analytics
-
-LinkedIn: [Talifhani Edward Nedambale](http://www.linkedin.com/in/talifhani-edward-nedambale/)
-GitHub: [talifhaniedward](https://github.com/talifhaniedward)
+- GitHub: https://github.com/talifhaniedward
+- LinkedIn: http://www.linkedin.com/in/talifhani-edward-nedambale/

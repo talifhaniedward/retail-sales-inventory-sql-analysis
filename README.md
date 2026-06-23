@@ -19,11 +19,11 @@ The analysis was performed on a large-scale retail database containing:
 ---
 ## Key Project Metrics
 
-- **1.2 million+ rows analyzed across 6 tables**
+- **1.1 million+ rows analyzed across 6 tables**
 - **500,000 sales transactions**
 - **500,000 inventory records**
 - **100,000 unique customers**
-- **100,000 products across 7 brands**
+- **10,000 products across 7 brands**
 - **100 stores across 4 South African provinces**
 - **3-year time-series (1,095 days: 2024–2026)**
 
